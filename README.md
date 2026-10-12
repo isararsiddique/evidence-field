@@ -85,3 +85,18 @@ python predict_histopathology.py --input examples/example_negative.png --output 
 ```
 
 Three real examples include an incorrect prediction. The supplied independent reader verifies every member/class covering, score decomposition and probability mixture in a separate NumPy/SciPy process. Input labels are not used for prediction.
+
+
+## Upload an image and inspect its evidence
+
+Download the [complete runnable application](https://huggingface.co/Isarar/Evidence-Field/resolve/main/Histopathology_EF_Ready_To_Run.zip), extract it, and install its requirements. Run:
+
+```sh
+python serve_histopathology.py
+```
+
+Open http://127.0.0.1:8766. Each native 96x96 RGB lymph-node patch produces a label/probability, separate member predictions, selected covering supports, signed score fields, exact contribution tables and independent six-program reconstruction. The HTML report and PNG overview show the actual input and evidence together. All images are processed on the computer running this local interface.
+
+The [visible-output verification](verification/Histopathology_Visible_Output_Verification.json) records three real examples including an error, an uploaded-image round trip, incompatible-size rejection, score-integral checks and visual QA. All trained states and numerical modules are unchanged. Maps distribute selected unit scores uniformly over their supports; they reconstruct member scores and are not validated cell annotations or additive explanations of the ensemble probability.
+
+The `applications/histopathology/` Python files expose the interface/renderer source for inspection. Run the complete ZIP, which also supplies its checkpoints, locked numerical implementation, independent reader and authenticated inventory.

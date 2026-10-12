@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "real_uploaded_image": true,
+  "input_png_sha256": "650c58e48e2c15c60983e1a08f047c786d743803eaf1277ec5a1affea3ed0353",
+  "prediction": "tumour",
+  "raw_probability": [
+    0.3296265988275778,
+    0.6703734011724222
+  ],
+  "six_class_programs_reconstructed": 6,
+  "all_selected_covers_onefold": true,
+  "signed_field_integrals_match_member_margins": true,
+  "maximum_margin_reconstruction_error": 0.0,
+  "real_64_pixel_crop_rejected": true,
+  "numerical_model_changes": 0,
+  "visual_inspection_completed": true,
+  "visual_inspection_scope": [
+    "browser upload page",
+    "browser report top and all three member panels",
+    "browser signed term tables and interpretation",
+    "full PNG overview"
+  ],
+  "schema": "EF-visible-application-validation/1",
+  "trained_input_contract": "Native 96x96 RGB lymph-node patch; tumour label refers to central 32x32 window",
+  "examples": [
+    {
+      "example": "negative",
+      "predicted_label": "no_tumour",
+      "raw_probability": [
+        0.9914512109194398,
+        0.008548789080560133
+      ],
+      "input_sha256": "4c8f54fb6b662f1cc48bb179e0c5435a10a75f75aeeb6d3dbd9564f6d2e088f2",
+      "six_class_programs_reconstructed": 6,
+      "independent_replay_passed": true,
+      "maximum_probability_error": 2.0710713890398358e-09,
+      "all_selected_covers_onefold": true,
+      "maximum_score_margin_error": 0.0
+    },
+    {
+      "example": "positive",
+      "predicted_label": "tumour",
+      "raw_probability": [
+        0.3296265988275778,
+        0.6703734011724222
+      ],
+      "input_sha256": "650c58e48e2c15c60983e1a08f047c786d743803eaf1277ec5a1affea3ed0353",
+      "six_class_programs_reconstructed": 6,
+      "independent_replay_passed": true,
+      "maximum_probability_error": 1.1975586600154742e-07,
+      "all_selected_covers_onefold": true,
+      "maximum_score_margin_error": 0.0
+    },
+    {
+      "example": "error",
+      "predicted_label": "tumour",
+      "raw_probability": [
+        0.11243654022049004,
+        0.8875634597795099
+      ],
+      "input_sha256": "9ed5746b5b7d8745a1e856bcc1eb8ff7303ad01d5871d36dd0ee119d8a95886b",
+      "six_class_programs_reconstructed": 6,
+      "independent_replay_passed": true,
+      "maximum_probability_error": 7.204291829765452e-08,
+      "all_selected_covers_onefold": true,
+      "maximum_score_margin_error": 4.440892098500626e-16
+    }
+  ]
+}
