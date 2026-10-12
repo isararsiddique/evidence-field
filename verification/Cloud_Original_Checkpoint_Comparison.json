@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "bucket": "sarindermd",
+  "endpoint": "https://sgp1.digitaloceanspaces.com",
+  "object_key": "Evidence_Field/2026-10-12/132.145.131.192/publication_proof/Best_EF_Checkpoints.zip",
+  "archive_sha256": "4510be720b4dd14284e763fc3d9ff63ddfad4fa245625d4e7f4d4edd8ee24475",
+  "archive_bytes": 2534443,
+  "manifest_payloads_verified": 63,
+  "checkpoint_count": 6,
+  "files": [
+    {
+      "file": "Lung_EF/learned_evidence__11.pt",
+      "bytes": 47729,
+      "sha256": "fde0038a0f6a95de296412f689e2b3089c0214f974b6d59480b730f0d1efd23b",
+      "local_matches_cloud_original": true
+    },
+    {
+      "file": "Lung_EF/learned_evidence__29.pt",
+      "bytes": 47729,
+      "sha256": "9c64c3ac6b81564e53da03a008b2207e344ecfcd6128f7548a2eab17745e5c38",
+      "local_matches_cloud_original": true
+    },
+    {
+      "file": "Lung_EF/learned_evidence__47.pt",
+      "bytes": 47729,
+      "sha256": "7ac3f1e444899b61f9a828d2f55596ca4b0d34d97616ce4c6ac0faa816d7b6d5",
+      "local_matches_cloud_original": true
+    },
+    {
+      "file": "Histopathology_EF/ef_two_ce__11.pt",
+      "bytes": 47461,
+      "sha256": "1a2235a6ac38a63ce68653ac37baa90a15d4978704c21b457f8f3e5d53c9715e",
+      "local_matches_cloud_original": true
+    },
+    {
+      "file": "Histopathology_EF/ef_two_ce__29.pt",
+      "bytes": 47461,
+      "sha256": "a5ba12a7fc89ba1b1fe5121f7dbdc3eedae9ce7d25f69d17e841b9c8c384a8c2",
+      "local_matches_cloud_original": true
+    },
+    {
+      "file": "Histopathology_EF/ef_two_ce__47.pt",
+      "bytes": 47461,
+      "sha256": "fb5293d2819092d62f8c5ce39869a67a4fba58fbd4fd36718f1a2675705eabb8",
+      "local_matches_cloud_original": true
+    }
+  ],
+  "conclusion": "The original cloud bundle contains the same six 47KB-class state dictionaries as the local and published primary models. No larger replacement weights were missing from this registered bundle."
+}

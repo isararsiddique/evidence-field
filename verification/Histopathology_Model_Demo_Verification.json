@@ -1,0 +1,467 @@
+{
+  "passed": true,
+  "real_png_inputs": 3,
+  "member_image_predictions": 9,
+  "class_programs_reconstructed": 18,
+  "complete_input_to_prediction_pipeline": true,
+  "independent_reader_framework_free": true,
+  "task": "Native96x96 lymph-node histopathology classification",
+  "rows": [
+    {
+      "example": "example_negative.png",
+      "released_label": 0,
+      "predicted_label": "no_tumour",
+      "raw_probability": [
+        0.9914512109194398,
+        0.008548789080560133
+      ],
+      "source_calibrated_probability": [
+        0.9942716531721874,
+        0.005728346827812542
+      ],
+      "maximum_original_probability_error": 2.071071385570389e-09,
+      "independent_reader": {
+        "passed": true,
+        "members": [
+          {
+            "seed": 11,
+            "checkpoint_sha256": "1a2235a6ac38a63ce68653ac37baa90a15d4978704c21b457f8f3e5d53c9715e",
+            "native_reader": {
+              "passed": true,
+              "descriptor_error": 8.874292589666766e-08,
+              "score_error": 1.4412087843140853e-06,
+              "optimum_error": 1.4412087843140853e-06,
+              "cover_voxels": [
+                9216,
+                9216
+              ],
+              "admissible_bound_candidates": 252,
+              "dominated_expansions": 1,
+              "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+            },
+            "signed_class_totals": [
+              {
+                "anchors": 1.5507498668381061,
+                "local_affine": 4.3200333136883255,
+                "parent_affine": 1.7215573112538123,
+                "member_product": -0.45082733187963764,
+                "parent_modulation": 0.07254900536512394,
+                "bias": 0.004745966289192438
+              },
+              {
+                "anchors": -0.061105507424722524,
+                "local_affine": 2.652313261076883,
+                "parent_affine": 1.3232011646071953,
+                "member_product": -0.5454373023010334,
+                "parent_modulation": -0.545397056208146,
+                "bias": -0.004745966289192438
+              }
+            ],
+            "reconstructed_logits": [
+              7.218808131554923,
+              2.8188285934609842
+            ],
+            "maximum_decomposition_error": 1.4412087869786205e-06
+          },
+          {
+            "seed": 29,
+            "checkpoint_sha256": "a5ba12a7fc89ba1b1fe5121f7dbdc3eedae9ce7d25f69d17e841b9c8c384a8c2",
+            "native_reader": {
+              "passed": true,
+              "descriptor_error": 6.385923212448574e-08,
+              "score_error": 7.717057348699541e-07,
+              "optimum_error": 7.717057339817757e-07,
+              "cover_voxels": [
+                9216,
+                9216
+              ],
+              "admissible_bound_candidates": 252,
+              "dominated_expansions": 0,
+              "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+            },
+            "signed_class_totals": [
+              {
+                "anchors": 1.1255136424483965,
+                "local_affine": 1.9266587767282393,
+                "parent_affine": 2.8781683441153096,
+                "member_product": 0.7938779036576749,
+                "parent_modulation": 0.7074177163303444,
+                "bias": -0.04178046062588692
+              },
+              {
+                "anchors": 0.5166781928620525,
+                "local_affine": 1.311948114761253,
+                "parent_affine": -0.3962869813715221,
+                "member_product": 0.6270905412243999,
+                "parent_modulation": 0.5424135572358663,
+                "bias": 0.04178046062588692
+              }
+            ],
+            "reconstructed_logits": [
+              7.389855922654077,
+              2.6436238853379366
+            ],
+            "maximum_decomposition_error": 7.781929641237362e-07
+          },
+          {
+            "seed": 47,
+            "checkpoint_sha256": "fb5293d2819092d62f8c5ce39869a67a4fba58fbd4fd36718f1a2675705eabb8",
+            "native_reader": {
+              "passed": true,
+              "descriptor_error": 1.0223086865934761e-07,
+              "score_error": 2.0732798038380906e-06,
+              "optimum_error": 2.0732798038380906e-06,
+              "cover_voxels": [
+                9216,
+                9216
+              ],
+              "admissible_bound_candidates": 252,
+              "dominated_expansions": 2,
+              "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+            },
+            "signed_class_totals": [
+              {
+                "anchors": 1.1352215668789873,
+                "local_affine": 0.663008332368241,
+                "parent_affine": 2.8706735605921225,
+                "member_product": 0.9315025522662037,
+                "parent_modulation": 0.882503702853297,
+                "bias": -0.04405723884701729
+              },
+              {
+                "anchors": 0.8347444002831721,
+                "local_affine": 0.5775214581271012,
+                "parent_affine": -0.40848302111460544,
+                "member_product": 0.039532500835789165,
+                "parent_modulation": 0.03953249672555671,
+                "bias": 0.04405723884701729
+              }
+            ],
+            "reconstructed_logits": [
+              6.438852476111834,
+              1.126905073704031
+            ],
+            "maximum_decomposition_error": 2.073279802949912e-06
+          }
+        ],
+        "class_programs": 6,
+        "reconstructed_raw_probability": [
+          0.9914512095830377,
+          0.008548790416962276
+        ],
+        "reconstructed_source_calibrated_probability": [
+          0.994271651101116,
+          0.005728348898883931
+        ],
+        "maximum_probability_error": 2.0710713890398358e-09,
+        "training_framework_imported": false,
+        "independent_computational_reconstruction": true,
+        "clinical_localization_validation": false
+      }
+    },
+    {
+      "example": "example_error.png",
+      "released_label": 0,
+      "predicted_label": "tumour",
+      "raw_probability": [
+        0.11243654022049004,
+        0.8875634597795099
+      ],
+      "source_calibrated_probability": [
+        0.09413231786895851,
+        0.9058676821310414
+      ],
+      "maximum_original_probability_error": 7.204291829765452e-08,
+      "independent_reader": {
+        "passed": true,
+        "members": [
+          {
+            "seed": 11,
+            "checkpoint_sha256": "1a2235a6ac38a63ce68653ac37baa90a15d4978704c21b457f8f3e5d53c9715e",
+            "native_reader": {
+              "passed": true,
+              "descriptor_error": 1.0969129404792e-07,
+              "score_error": 1.8487187247728798e-07,
+              "optimum_error": 1.8487187247728798e-07,
+              "cover_voxels": [
+                9216,
+                9216
+              ],
+              "admissible_bound_candidates": 252,
+              "dominated_expansions": 0,
+              "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+            },
+            "signed_class_totals": [
+              {
+                "anchors": 2.8956728198557586,
+                "local_affine": 3.5502043407019874,
+                "parent_affine": 3.045539486726818,
+                "member_product": -0.6602525556180115,
+                "parent_modulation": -0.47187244173238846,
+                "bias": 0.004745966289192438
+              },
+              {
+                "anchors": 1.1168983385354965,
+                "local_affine": 5.645189439784826,
+                "parent_affine": 3.121757682828601,
+                "member_product": 0.14372694069097958,
+                "parent_modulation": 0.12443595281960068,
+                "bias": -0.004745966289192438
+              }
+            ],
+            "reconstructed_logits": [
+              8.364037616223357,
+              10.147262388370311
+            ],
+            "maximum_decomposition_error": 6.436237220963648e-07
+          },
+          {
+            "seed": 29,
+            "checkpoint_sha256": "a5ba12a7fc89ba1b1fe5121f7dbdc3eedae9ce7d25f69d17e841b9c8c384a8c2",
+            "native_reader": {
+              "passed": true,
+              "descriptor_error": 1.1415634237899042e-07,
+              "score_error": 5.864847123504546e-07,
+              "optimum_error": 5.864847123504546e-07,
+              "cover_voxels": [
+                9216,
+                9216
+              ],
+              "admissible_bound_candidates": 252,
+              "dominated_expansions": 0,
+              "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+            },
+            "signed_class_totals": [
+              {
+                "anchors": 1.9902330032901379,
+                "local_affine": -0.6148152025012543,
+                "parent_affine": 2.746295414111202,
+                "member_product": 0.7919814940204011,
+                "parent_modulation": 0.7885572515937966,
+                "bias": -0.04178046062588692
+              },
+              {
+                "anchors": 3.532038688645848,
+                "local_affine": 3.1085171188036416,
+                "parent_affine": -1.3656521920271403,
+                "member_product": 1.2818978374184138,
+                "parent_modulation": 1.2818844380674383,
+                "bias": 0.04178046062588692
+              }
+            ],
+            "reconstructed_logits": [
+              5.660471499888397,
+              7.880466351534088
+            ],
+            "maximum_decomposition_error": 5.864847105740978e-07
+          },
+          {
+            "seed": 47,
+            "checkpoint_sha256": "fb5293d2819092d62f8c5ce39869a67a4fba58fbd4fd36718f1a2675705eabb8",
+            "native_reader": {
+              "passed": true,
+              "descriptor_error": 1.0540993944374577e-07,
+              "score_error": 2.478596540456124e-06,
+              "optimum_error": 2.478596540456124e-06,
+              "cover_voxels": [
+                9216,
+                9216
+              ],
+              "admissible_bound_candidates": 252,
+              "dominated_expansions": 0,
+              "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+            },
+            "signed_class_totals": [
+              {
+                "anchors": 0.9717010489426572,
+                "local_affine": 0.18976215499903698,
+                "parent_affine": 2.669162284113643,
+                "member_product": 0.9357072189793039,
+                "parent_modulation": 0.935353516444377,
+                "bias": -0.04405723884701729
+              },
+              {
+                "anchors": 2.0398087635249516,
+                "local_affine": 7.079099351464096,
+                "parent_affine": -2.1945909261787064,
+                "member_product": 0.5081486667108008,
+                "parent_modulation": 0.4301125724820782,
+                "bias": 0.04405723884701729
+              }
+            ],
+            "reconstructed_logits": [
+              5.657628984632001,
+              7.906635666850238
+            ],
+            "maximum_decomposition_error": 2.4785965395679455e-06
+          }
+        ],
+        "class_programs": 6,
+        "reconstructed_raw_probability": [
+          0.11243661226340829,
+          0.8875633877365916
+        ],
+        "reconstructed_source_calibrated_probability": [
+          0.09413238430802698,
+          0.905867615691973
+        ],
+        "maximum_probability_error": 7.204291829765452e-08,
+        "training_framework_imported": false,
+        "independent_computational_reconstruction": true,
+        "clinical_localization_validation": false
+      }
+    },
+    {
+      "example": "example_positive.png",
+      "released_label": 1,
+      "predicted_label": "tumour",
+      "raw_probability": [
+        0.3296265988275778,
+        0.6703734011724222
+      ],
+      "source_calibrated_probability": [
+        0.3342852442227783,
+        0.6657147557772216
+      ],
+      "maximum_original_probability_error": 1.1975586600154742e-07,
+      "independent_reader": {
+        "passed": true,
+        "members": [
+          {
+            "seed": 11,
+            "checkpoint_sha256": "1a2235a6ac38a63ce68653ac37baa90a15d4978704c21b457f8f3e5d53c9715e",
+            "native_reader": {
+              "passed": true,
+              "descriptor_error": 1.1624511420116335e-07,
+              "score_error": 1.222171304604558e-06,
+              "optimum_error": 1.222171304604558e-06,
+              "cover_voxels": [
+                9216,
+                9216
+              ],
+              "admissible_bound_candidates": 252,
+              "dominated_expansions": 0,
+              "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+            },
+            "signed_class_totals": [
+              {
+                "anchors": 0.779613568876556,
+                "local_affine": 4.5473021308133665,
+                "parent_affine": 2.4117059329673287,
+                "member_product": -0.2718080773827408,
+                "parent_modulation": -0.01717743566390299,
+                "bias": 0.004745966289192438
+              },
+              {
+                "anchors": 0.4209373387352379,
+                "local_affine": 2.455173793439522,
+                "parent_affine": 2.2923786902675354,
+                "member_product": 0.2153259173817151,
+                "parent_modulation": 0.215324701962901,
+                "bias": -0.004745966289192438
+              }
+            ],
+            "reconstructed_logits": [
+              7.4543820858998,
+              5.594394475497719
+            ],
+            "maximum_decomposition_error": 1.4049596628318284e-06
+          },
+          {
+            "seed": 29,
+            "checkpoint_sha256": "a5ba12a7fc89ba1b1fe5121f7dbdc3eedae9ce7d25f69d17e841b9c8c384a8c2",
+            "native_reader": {
+              "passed": true,
+              "descriptor_error": 1.0588194188088096e-07,
+              "score_error": 6.098211606797577e-07,
+              "optimum_error": 6.098211606797577e-07,
+              "cover_voxels": [
+                9216,
+                9216
+              ],
+              "admissible_bound_candidates": 252,
+              "dominated_expansions": 0,
+              "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+            },
+            "signed_class_totals": [
+              {
+                "anchors": 1.1974337045246983,
+                "local_affine": -0.62230750607833,
+                "parent_affine": 2.570683678581163,
+                "member_product": 0.7942102730374433,
+                "parent_modulation": 0.7850475872521897,
+                "bias": -0.04178046062588692
+              },
+              {
+                "anchors": 1.6537341125677512,
+                "local_affine": 3.492811611947826,
+                "parent_affine": -1.6860885153730196,
+                "member_product": 1.7993493249376655,
+                "parent_modulation": 1.7993418962892536,
+                "bias": 0.04178046062588692
+              }
+            ],
+            "reconstructed_logits": [
+              4.683287276691278,
+              7.100928890995363
+            ],
+            "maximum_decomposition_error": 6.098211606797577e-07
+          },
+          {
+            "seed": 47,
+            "checkpoint_sha256": "fb5293d2819092d62f8c5ce39869a67a4fba58fbd4fd36718f1a2675705eabb8",
+            "native_reader": {
+              "passed": true,
+              "descriptor_error": 1.1049938497542655e-07,
+              "score_error": 2.7311157788645346e-06,
+              "optimum_error": 2.7311157788645346e-06,
+              "cover_voxels": [
+                9216,
+                9216
+              ],
+              "admissible_bound_candidates": 252,
+              "dominated_expansions": 0,
+              "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+            },
+            "signed_class_totals": [
+              {
+                "anchors": 1.3218823205611296,
+                "local_affine": -0.994505747513456,
+                "parent_affine": 2.7786011293169257,
+                "member_product": 0.8394393987512706,
+                "parent_modulation": 0.8388689304491571,
+                "bias": -0.04405723884701729
+              },
+              {
+                "anchors": 1.3171109220739714,
+                "local_affine": 9.651344859236097,
+                "parent_affine": -3.996429939198651,
+                "member_product": 0.4291272561712489,
+                "parent_modulation": 0.42851160937916055,
+                "bias": 0.04405723884701729
+              }
+            ],
+            "reconstructed_logits": [
+              4.74022879271801,
+              7.873721946508844
+            ],
+            "maximum_decomposition_error": 2.731115777976356e-06
+          }
+        ],
+        "class_programs": 6,
+        "reconstructed_raw_probability": [
+          0.329626479071712,
+          0.6703735209282882
+        ],
+        "reconstructed_source_calibrated_probability": [
+          0.33428514502473944,
+          0.6657148549752605
+        ],
+        "maximum_probability_error": 1.1975586600154742e-07,
+        "training_framework_imported": false,
+        "independent_computational_reconstruction": true,
+        "clinical_localization_validation": false
+      }
+    }
+  ]
+}

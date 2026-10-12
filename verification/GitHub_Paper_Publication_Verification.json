@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "public_repository": "https://github.com/isararsiddique/evidence-field",
+  "commit": "89cb1640327341097bf935573039f5ff80dc5c2d",
+  "files": [
+    {
+      "file": "Evidence_Field_Architecture.pdf",
+      "bytes": 339077,
+      "sha256": "ee7f02643bd710324b8cb1ccf3524da6fa80f60514c94b95fc49e270831bd2a8",
+      "download_url": "https://raw.githubusercontent.com/isararsiddique/evidence-field/89cb1640327341097bf935573039f5ff80dc5c2d/paper/Evidence_Field_Architecture.pdf",
+      "matches_local": true
+    },
+    {
+      "file": "Evidence_Field_Architecture_Source.zip",
+      "bytes": 6844886,
+      "sha256": "b8a6a99c93a6c8f9b9b77fae58674cc394ea098591eb1684e684356518b3ac04",
+      "download_url": "https://raw.githubusercontent.com/isararsiddique/evidence-field/89cb1640327341097bf935573039f5ff80dc5c2d/paper/Evidence_Field_Architecture_Source.zip",
+      "matches_local": true
+    }
+  ]
+}

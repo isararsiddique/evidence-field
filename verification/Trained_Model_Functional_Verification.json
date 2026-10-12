@@ -1,0 +1,399 @@
+{
+  "passed": true,
+  "created_utc": "2026-10-12T18:56:11.215908+00:00",
+  "checkpoint_count": 6,
+  "real_inputs": 425,
+  "member_image_inferences": 1275,
+  "raw_decisions_reproduced": 425,
+  "calibrated_decisions_reproduced": 425,
+  "maximum_probability_error": 4.943321164629921e-07,
+  "cloud_original_comparison": {
+    "passed": true,
+    "bucket": "sarindermd",
+    "endpoint": "https://sgp1.digitaloceanspaces.com",
+    "object_key": "Evidence_Field/2026-10-12/132.145.131.192/publication_proof/Best_EF_Checkpoints.zip",
+    "archive_sha256": "4510be720b4dd14284e763fc3d9ff63ddfad4fa245625d4e7f4d4edd8ee24475",
+    "archive_bytes": 2534443,
+    "manifest_payloads_verified": 63,
+    "checkpoint_count": 6,
+    "files": [
+      {
+        "file": "Lung_EF/learned_evidence__11.pt",
+        "bytes": 47729,
+        "sha256": "fde0038a0f6a95de296412f689e2b3089c0214f974b6d59480b730f0d1efd23b",
+        "local_matches_cloud_original": true
+      },
+      {
+        "file": "Lung_EF/learned_evidence__29.pt",
+        "bytes": 47729,
+        "sha256": "9c64c3ac6b81564e53da03a008b2207e344ecfcd6128f7548a2eab17745e5c38",
+        "local_matches_cloud_original": true
+      },
+      {
+        "file": "Lung_EF/learned_evidence__47.pt",
+        "bytes": 47729,
+        "sha256": "7ac3f1e444899b61f9a828d2f55596ca4b0d34d97616ce4c6ac0faa816d7b6d5",
+        "local_matches_cloud_original": true
+      },
+      {
+        "file": "Histopathology_EF/ef_two_ce__11.pt",
+        "bytes": 47461,
+        "sha256": "1a2235a6ac38a63ce68653ac37baa90a15d4978704c21b457f8f3e5d53c9715e",
+        "local_matches_cloud_original": true
+      },
+      {
+        "file": "Histopathology_EF/ef_two_ce__29.pt",
+        "bytes": 47461,
+        "sha256": "a5ba12a7fc89ba1b1fe5121f7dbdc3eedae9ce7d25f69d17e841b9c8c384a8c2",
+        "local_matches_cloud_original": true
+      },
+      {
+        "file": "Histopathology_EF/ef_two_ce__47.pt",
+        "bytes": 47461,
+        "sha256": "fb5293d2819092d62f8c5ce39869a67a4fba58fbd4fd36718f1a2675705eabb8",
+        "local_matches_cloud_original": true
+      }
+    ],
+    "conclusion": "The original cloud bundle contains the same six 47KB-class state dictionaries as the local and published primary models. No larger replacement weights were missing from this registered bundle."
+  },
+  "task_results": [
+    {
+      "passed": true,
+      "created_utc": "2026-10-12T18:54:06.492602+00:00",
+      "task": "histopathology",
+      "scope": "Frozen external audit panel; not a new full-CAMELYON evaluation",
+      "public_repository": "https://huggingface.co/Isarar/Evidence-Field",
+      "public_commit": "63477617bb040efb4dd086166eafda61a4642fdb",
+      "device": "cpu",
+      "torch_version": "2.7.0",
+      "optimizer_steps": 0,
+      "threshold_changes": 0,
+      "numerical_source_changes": 0,
+      "images": 340,
+      "member_image_inferences": 1020,
+      "members": [
+        {
+          "seed": 11,
+          "file": "ef_two_ce__11.pt",
+          "bytes": 47461,
+          "sha256": "1a2235a6ac38a63ce68653ac37baa90a15d4978704c21b457f8f3e5d53c9715e",
+          "matches_original_local": true,
+          "registered_parameters": 10550,
+          "tensor_values": 10574,
+          "tensor_bytes": 42296,
+          "state_tensor_count": 14,
+          "strict_state_load": true
+        },
+        {
+          "seed": 29,
+          "file": "ef_two_ce__29.pt",
+          "bytes": 47461,
+          "sha256": "a5ba12a7fc89ba1b1fe5121f7dbdc3eedae9ce7d25f69d17e841b9c8c384a8c2",
+          "matches_original_local": true,
+          "registered_parameters": 10550,
+          "tensor_values": 10574,
+          "tensor_bytes": 42296,
+          "state_tensor_count": 14,
+          "strict_state_load": true
+        },
+        {
+          "seed": 47,
+          "file": "ef_two_ce__47.pt",
+          "bytes": 47461,
+          "sha256": "fb5293d2819092d62f8c5ce39869a67a4fba58fbd4fd36718f1a2675705eabb8",
+          "matches_original_local": true,
+          "registered_parameters": 10550,
+          "tensor_values": 10574,
+          "tensor_bytes": 42296,
+          "state_tensor_count": 14,
+          "strict_state_load": true
+        }
+      ],
+      "elapsed_inference_seconds": 5.406268999911845,
+      "maximum_errors": {
+        "raw_probability": 4.5606123999508696e-07,
+        "calibrated_probability": 4.943321164629921e-07
+      },
+      "raw_label_agreement_count": 340,
+      "calibrated_label_agreement_count": 340,
+      "tolerance": 2e-05,
+      "input_panel_sha256": "3ac268df02977ad515d00b654b79b501ab589cea29eee77df2458c7dc8d6d03e",
+      "metrics_by_split": {
+        "hospital_1": {
+          "raw": {
+            "images": 160,
+            "correct": 120,
+            "accuracy": 0.75,
+            "auroc": 0.9084375,
+            "class_counts": [
+              80,
+              80
+            ],
+            "confusion_matrix": [
+              [
+                72,
+                8
+              ],
+              [
+                32,
+                48
+              ]
+            ],
+            "positive_probability_min": 0.001922658918727969,
+            "positive_probability_max": 0.9999924554881358,
+            "distinct_positive_probabilities": 160
+          },
+          "calibrated": {
+            "images": 160,
+            "correct": 119,
+            "accuracy": 0.74375,
+            "auroc": 0.9075,
+            "class_counts": [
+              80,
+              80
+            ],
+            "confusion_matrix": [
+              [
+                72,
+                8
+              ],
+              [
+                33,
+                47
+              ]
+            ],
+            "positive_probability_min": 0.001141099692577753,
+            "positive_probability_max": 0.9999957021342695,
+            "distinct_positive_probabilities": 160
+          }
+        },
+        "hospital_2": {
+          "raw": {
+            "images": 180,
+            "correct": 149,
+            "accuracy": 0.8277777777777777,
+            "auroc": 0.9211111111111111,
+            "class_counts": [
+              90,
+              90
+            ],
+            "confusion_matrix": [
+              [
+                75,
+                15
+              ],
+              [
+                16,
+                74
+              ]
+            ],
+            "positive_probability_min": 0.0006677329925954544,
+            "positive_probability_max": 0.9999759736792414,
+            "distinct_positive_probabilities": 180
+          },
+          "calibrated": {
+            "images": 180,
+            "correct": 150,
+            "accuracy": 0.8333333333333334,
+            "auroc": 0.9192592592592592,
+            "class_counts": [
+              90,
+              90
+            ],
+            "confusion_matrix": [
+              [
+                76,
+                14
+              ],
+              [
+                16,
+                74
+              ]
+            ],
+            "positive_probability_min": 0.000267910970514434,
+            "positive_probability_max": 0.9999847356820559,
+            "distinct_positive_probabilities": 180
+          }
+        }
+      },
+      "reproduction_runner_sha256": "cf3a7c42d03ce8e13e64ab41e11004bf4045d97ebb175fa6631ef25996400457",
+      "result_is_reproduction_not_new_training": true
+    },
+    {
+      "passed": true,
+      "created_utc": "2026-10-12T18:54:23.286622+00:00",
+      "task": "lung",
+      "scope": "All 73 LUNGx external cases plus 12 frozen LIDC audit examples",
+      "public_repository": "https://huggingface.co/Isarar/Evidence-Field",
+      "public_commit": "63477617bb040efb4dd086166eafda61a4642fdb",
+      "device": "cpu",
+      "torch_version": "2.7.0",
+      "optimizer_steps": 0,
+      "threshold_changes": 0,
+      "numerical_source_changes": 0,
+      "images": 85,
+      "member_image_inferences": 255,
+      "members": [
+        {
+          "seed": 11,
+          "file": "learned_evidence__11.pt",
+          "bytes": 47729,
+          "sha256": "fde0038a0f6a95de296412f689e2b3089c0214f974b6d59480b730f0d1efd23b",
+          "matches_original_local": true,
+          "registered_parameters": 10550,
+          "tensor_values": 10574,
+          "tensor_bytes": 42296,
+          "state_tensor_count": 14,
+          "strict_state_load": true
+        },
+        {
+          "seed": 29,
+          "file": "learned_evidence__29.pt",
+          "bytes": 47729,
+          "sha256": "9c64c3ac6b81564e53da03a008b2207e344ecfcd6128f7548a2eab17745e5c38",
+          "matches_original_local": true,
+          "registered_parameters": 10550,
+          "tensor_values": 10574,
+          "tensor_bytes": 42296,
+          "state_tensor_count": 14,
+          "strict_state_load": true
+        },
+        {
+          "seed": 47,
+          "file": "learned_evidence__47.pt",
+          "bytes": 47729,
+          "sha256": "7ac3f1e444899b61f9a828d2f55596ca4b0d34d97616ce4c6ac0faa816d7b6d5",
+          "matches_original_local": true,
+          "registered_parameters": 10550,
+          "tensor_values": 10574,
+          "tensor_bytes": 42296,
+          "state_tensor_count": 14,
+          "strict_state_load": true
+        }
+      ],
+      "elapsed_inference_seconds": 21.93811804242432,
+      "maximum_errors": {
+        "raw_probability": 2.0517507681727665e-07,
+        "calibrated_probability": 2.556985438939563e-07,
+        "member_logits": 2.037733793258667e-06
+      },
+      "raw_label_agreement_count": 85,
+      "calibrated_label_agreement_count": 85,
+      "tolerance": 2e-05,
+      "input_panel_sha256": "088646e8bda5c1e01c71fb832517bd49dd6cad79041103c2c611a5176058400e",
+      "metrics_by_split": {
+        "lidc_all": {
+          "raw": {
+            "images": 12,
+            "correct": 12,
+            "accuracy": 1.0,
+            "auroc": 1.0,
+            "class_counts": [
+              6,
+              6
+            ],
+            "confusion_matrix": [
+              [
+                6,
+                0
+              ],
+              [
+                0,
+                6
+              ]
+            ],
+            "positive_probability_min": 0.08733266653706229,
+            "positive_probability_max": 0.9128604973711849,
+            "distinct_positive_probabilities": 12
+          },
+          "calibrated": {
+            "images": 12,
+            "correct": 12,
+            "accuracy": 1.0,
+            "auroc": 1.0,
+            "class_counts": [
+              6,
+              6
+            ],
+            "confusion_matrix": [
+              [
+                6,
+                0
+              ],
+              [
+                0,
+                6
+              ]
+            ],
+            "positive_probability_min": 0.07335172948757852,
+            "positive_probability_max": 0.9322267005963195,
+            "distinct_positive_probabilities": 12
+          }
+        },
+        "lungx": {
+          "raw": {
+            "images": 73,
+            "correct": 43,
+            "accuracy": 0.589041095890411,
+            "auroc": 0.7214714714714715,
+            "class_counts": [
+              37,
+              36
+            ],
+            "confusion_matrix": [
+              [
+                11,
+                26
+              ],
+              [
+                4,
+                32
+              ]
+            ],
+            "positive_probability_min": 0.13793048563230348,
+            "positive_probability_max": 0.9027198835682992,
+            "distinct_positive_probabilities": 73
+          },
+          "calibrated": {
+            "images": 73,
+            "correct": 44,
+            "accuracy": 0.6027397260273972,
+            "auroc": 0.7244744744744744,
+            "class_counts": [
+              37,
+              36
+            ],
+            "confusion_matrix": [
+              [
+                13,
+                24
+              ],
+              [
+                5,
+                31
+              ]
+            ],
+            "positive_probability_min": 0.12269222486781217,
+            "positive_probability_max": 0.9190199882723524,
+            "distinct_positive_probabilities": 73
+          }
+        }
+      },
+      "reproduction_runner_sha256": "cf3a7c42d03ce8e13e64ab41e11004bf4045d97ebb175fa6631ef25996400457",
+      "result_is_reproduction_not_new_training": true
+    }
+  ],
+  "interpretation": "Checkpoint size is valid for this 10,550-parameter architecture. These real-input inference tests reproduce the stored predictions; they do not establish universal accuracy or replace full-study validation.",
+  "files": [
+    {
+      "file": "histopathology_Fresh_CPU_Predictions.npz",
+      "bytes": 22237,
+      "sha256": "32a95788d37475a03aacf111022801f03e88cb13719cb03980541c609dd4d8f1"
+    },
+    {
+      "file": "lung_Fresh_CPU_Predictions.npz",
+      "bytes": 6706,
+      "sha256": "75ff402d07b85d1d73de30b0b34b851b3163b1a19886cd1f90d3d18eae62aeff"
+    }
+  ]
+}

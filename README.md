@@ -68,3 +68,20 @@ unestablished. General 2D/3D mathematics does not imply 3D application validatio
 
 Manuscripts are independent research drafts. No acceptance, clinical review,
 institutional evaluation or global priority is asserted.
+
+
+## Paper and complete working histopathology model
+
+* [Reviewed architecture PDF](paper/Evidence_Field_Architecture.pdf) and [complete editable source](paper/Evidence_Field_Architecture_Source.zip).
+* [Original model repository](https://huggingface.co/Isarar/Evidence-Field), including the tested [complete runnable histopathology application](https://huggingface.co/Isarar/Evidence-Field/resolve/main/Histopathology_EF_Ready_To_Run.zip). The application accepts a native 96x96 RGB lymph-node patch and emits predicted labels, raw/source-calibrated probabilities, all three member outputs and independently reconstructed signed evidence.
+* [Functional verification](verification/Trained_Model_Functional_Verification.md): fresh inference reproduced 425/425 recorded decisions (340 real pathology audit patches and 85 CT crops), with maximum probability error below 5e-7. All six weights are identical to the independently downloaded original cloud bundle. The small state files contain 10,550 parameters each; the full encoder/classifier is code plus states.
+
+The pathology audit panel is not the full external evaluation; its metrics and the previously completed full-study results are identified separately in the report. CT LUNGx performance remains limited despite correct checkpoint reproduction.
+
+For direct image inference, download/extract the runnable ZIP, install its requirements and run:
+
+```sh
+python predict_histopathology.py --input examples/example_negative.png --output results/negative
+```
+
+Three real examples include an incorrect prediction. The supplied independent reader verifies every member/class covering, score decomposition and probability mixture in a separate NumPy/SciPy process. Input labels are not used for prediction.
