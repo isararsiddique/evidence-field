@@ -1,0 +1,205 @@
+{
+  "format": "base64 chunks of a ZIP; explicit text transport, not raw binary",
+  "archive": "Evidence_Field_Compact_Reproduction.zip",
+  "archive_bytes": 1732703,
+  "archive_sha256": "976d8b1ae70daccc9bf3af879485cd636314b9fe40db49389f0c733e03041f8c",
+  "parts": [
+    {
+      "file": "artifacts/reproduction.part000.b64",
+      "bytes": 60001,
+      "sha256": "18cb1d1ac0f8cf7cada23c20cb91d9b9b7ba2759e92d987b4045daee6ca3c9e5"
+    },
+    {
+      "file": "artifacts/reproduction.part001.b64",
+      "bytes": 60001,
+      "sha256": "578288113bd818b3f7d1e0ad68eb88c900c8afd446223ea1fa371f10e7cbac5a"
+    },
+    {
+      "file": "artifacts/reproduction.part002.b64",
+      "bytes": 60001,
+      "sha256": "efec43177d41849bc27ab01caad99bd05399dc11330cecf7580bb9a3baf3594f"
+    },
+    {
+      "file": "artifacts/reproduction.part003.b64",
+      "bytes": 60001,
+      "sha256": "19c2d221de634315319c2777e680a8a26cfa4f3c9f414be6548067d351e0d25e"
+    },
+    {
+      "file": "artifacts/reproduction.part004.b64",
+      "bytes": 60001,
+      "sha256": "510868bf9125bfe482d33997953f7bde2913c2ec50a132585912fd2757e769c1"
+    },
+    {
+      "file": "artifacts/reproduction.part005.b64",
+      "bytes": 60001,
+      "sha256": "7324f6758eb3d4cf71bab40c19b9dfb79f5d7a74a8cb7622125b0ce81baee8ad"
+    },
+    {
+      "file": "artifacts/reproduction.part006.b64",
+      "bytes": 60001,
+      "sha256": "5854283573a1b6c4c3c20608ed17c1cf1fe146256707f19b19944ceb48f6563f"
+    },
+    {
+      "file": "artifacts/reproduction.part007.b64",
+      "bytes": 60001,
+      "sha256": "2d2c0899646bff006801031f7fbc4fe48df7b55f293b9755e5adf46335f59a47"
+    },
+    {
+      "file": "artifacts/reproduction.part008.b64",
+      "bytes": 60001,
+      "sha256": "81129b0fd6606783ac62ffbc4565a2d0227ff9021b5bfb8d37018a7fa4cfb9f6"
+    },
+    {
+      "file": "artifacts/reproduction.part009.b64",
+      "bytes": 60001,
+      "sha256": "97b753eed239b3bc6cd630c5c39615fd5a482dfa9c0832826d53cc9d30feb163"
+    },
+    {
+      "file": "artifacts/reproduction.part010.b64",
+      "bytes": 60001,
+      "sha256": "06c9e18f7c8507614007e542deb1c9c3a19acfb05ded7ad4e6bc45200c38428b"
+    },
+    {
+      "file": "artifacts/reproduction.part011.b64",
+      "bytes": 60001,
+      "sha256": "a403866ae0b20f83acd862a7cde5a21e143f1be42c1bc28beafe13ed83bf698e"
+    },
+    {
+      "file": "artifacts/reproduction.part012.b64",
+      "bytes": 60001,
+      "sha256": "0ec79cc1a1e44b9975bd4ef81197197e46c80bef7fe24001a553a9b48826e7e7"
+    },
+    {
+      "file": "artifacts/reproduction.part013.b64",
+      "bytes": 60001,
+      "sha256": "3f538b47e23a391cc07d359086ff80ebd7457ee4e0bc64b94b4eee8cc95a014a"
+    },
+    {
+      "file": "artifacts/reproduction.part014.b64",
+      "bytes": 60001,
+      "sha256": "d886c09b279b1f9f78022d789326ec0ec7eafd9b517b3442e0a4d7048bb50a6f"
+    },
+    {
+      "file": "artifacts/reproduction.part015.b64",
+      "bytes": 60001,
+      "sha256": "b5a608ee90fbeaa451914bd6498a6c8742bfc321680e42e235f4ffcfa9ff903c"
+    },
+    {
+      "file": "artifacts/reproduction.part016.b64",
+      "bytes": 60001,
+      "sha256": "b6c019cf9197a225cb6871d0ed8368a9b2a3b0d34f10ba0eb93426ca05585614"
+    },
+    {
+      "file": "artifacts/reproduction.part017.b64",
+      "bytes": 60001,
+      "sha256": "d868c2419874a98cff9be016f16423ae739d034f07dd755b3c1d0c567cd0d1f9"
+    },
+    {
+      "file": "artifacts/reproduction.part018.b64",
+      "bytes": 60001,
+      "sha256": "384c3913fa9e93b2d1a38c6bf090bf811f27f0bc67976dcd24a6ec5e98242cb7"
+    },
+    {
+      "file": "artifacts/reproduction.part019.b64",
+      "bytes": 60001,
+      "sha256": "c2d908070adae1f31513fdacef99819dfad67ef91ca6b92e9483a22f2d2197bc"
+    },
+    {
+      "file": "artifacts/reproduction.part020.b64",
+      "bytes": 60001,
+      "sha256": "0a71e3c3846ddd5eae3a678a6afda882f06a8771465422b5e6a867635fa8733c"
+    },
+    {
+      "file": "artifacts/reproduction.part021.b64",
+      "bytes": 60001,
+      "sha256": "a201ad5d4db0663f04ca1a71962a4d2d26842919471dcef7d8f951ed6b5f5bf4"
+    },
+    {
+      "file": "artifacts/reproduction.part022.b64",
+      "bytes": 60001,
+      "sha256": "53e8cb263f98efaefb718f488c1ea3c49a597e7b0efab8f9998ab13d8e17c16e"
+    },
+    {
+      "file": "artifacts/reproduction.part023.b64",
+      "bytes": 60001,
+      "sha256": "829214eaa0ef5fd8a5949fe16565b10323730819817592789244026081aaf5b3"
+    },
+    {
+      "file": "artifacts/reproduction.part024.b64",
+      "bytes": 60001,
+      "sha256": "f90fb8ee728efee691b60285b1cca74912b20ab813f372c2d260ab46549e6532"
+    },
+    {
+      "file": "artifacts/reproduction.part025.b64",
+      "bytes": 60001,
+      "sha256": "494dc67d8c7c4c1200189ab4e214d523a9eff0369bf7e66438bde4f06e205f5a"
+    },
+    {
+      "file": "artifacts/reproduction.part026.b64",
+      "bytes": 60001,
+      "sha256": "daef0df13f2d1f69a03c0530f74d6ca1b4fd097a666b7b74ba3c3c93f9b4658f"
+    },
+    {
+      "file": "artifacts/reproduction.part027.b64",
+      "bytes": 60001,
+      "sha256": "751aefb0a2a3aae163eb20551fb1a54732af73f28dbbd2923f6a2016b8b2dc20"
+    },
+    {
+      "file": "artifacts/reproduction.part028.b64",
+      "bytes": 60001,
+      "sha256": "7e56689b5d21e18f78d14e40704034de1a152b9bc166dc736dc7686abfa632a6"
+    },
+    {
+      "file": "artifacts/reproduction.part029.b64",
+      "bytes": 60001,
+      "sha256": "8838fe373ab39f910233d5b117cc947239bc6d9b216e5ccce3b735311f5e84bf"
+    },
+    {
+      "file": "artifacts/reproduction.part030.b64",
+      "bytes": 60001,
+      "sha256": "b92b793ee05b04154d84fc0e5c80aade3fa863227fea3b01539626f955b83b80"
+    },
+    {
+      "file": "artifacts/reproduction.part031.b64",
+      "bytes": 60001,
+      "sha256": "217bf19f54315a1b88c2059d4e64057dfe0968bf1730c398b9ece36d3909f5f4"
+    },
+    {
+      "file": "artifacts/reproduction.part032.b64",
+      "bytes": 60001,
+      "sha256": "a568d5e361b0ef7969df394ba36b0ec75ea114ce682c80de4d66cd9038aa9dc0"
+    },
+    {
+      "file": "artifacts/reproduction.part033.b64",
+      "bytes": 60001,
+      "sha256": "f3f9aaa7ae4492addda03db8007f68adb793eebdc870ffbb746a779009ef0daa"
+    },
+    {
+      "file": "artifacts/reproduction.part034.b64",
+      "bytes": 60001,
+      "sha256": "06febceefb691283ea1fa0dc8adfec8aa5d8cfd390b006d4e538b376cfec4316"
+    },
+    {
+      "file": "artifacts/reproduction.part035.b64",
+      "bytes": 60001,
+      "sha256": "a8aaa6594e06385b4c53be423600a9eba43061ae28ab2d522910b07134e64cb6"
+    },
+    {
+      "file": "artifacts/reproduction.part036.b64",
+      "bytes": 60001,
+      "sha256": "72a710aa9d6c28ed18b49835fe1076380807850e5bdab55ae2ab7be220d8d248"
+    },
+    {
+      "file": "artifacts/reproduction.part037.b64",
+      "bytes": 60001,
+      "sha256": "cca025feb5e0393128ac68aaa8c718101218246fd3688bd05edcfff4d163b99c"
+    },
+    {
+      "file": "artifacts/reproduction.part038.b64",
+      "bytes": 30273,
+      "sha256": "9cb49e56fdd4a3cf38069bfe4b2bc1f276df43fa965317c21290138ce956328a"
+    }
+  ],
+  "payload_inventory_sha256": "7763259abca333fc04da83999359cd00e18baec82c7e533a16b1021c49d774d6",
+  "public_repository": "https://github.com/isararsiddique/evidence-field"
+}

@@ -1,0 +1,45 @@
+{
+  "scope": "Full row CSVs and source-validation arrays are not supplied in the compact public package.",
+  "omitted_files": [
+    {
+      "file": "checkpoints/ef_two_ce__11__source_validation.npz",
+      "bytes": 668138,
+      "sha256": "ceaff5697c60d20c20002717c02faad7cf7ce19e8a663eceac5a3aacd4393112"
+    },
+    {
+      "file": "checkpoints/ef_two_ce__29__source_validation.npz",
+      "bytes": 668024,
+      "sha256": "f2c17c44848fb8c141dc2bc77e6a2f6b4db9f6038c47c78c1dc277c7d98d1e1b"
+    },
+    {
+      "file": "checkpoints/ef_two_ce__47__source_validation.npz",
+      "bytes": 674074,
+      "sha256": "d00bcfbb389c149b51519f9aa402ef28b4646af36be189ca1f725eed8e21ce3e"
+    },
+    {
+      "file": "provenance/manifests/hospital_1.csv",
+      "bytes": 5231198,
+      "sha256": "3e1ba5cbbbad9b0a8e588f2ebee0755b8be3173e43ddaa9e77fd230c333f97f4"
+    },
+    {
+      "file": "provenance/manifests/hospital_2.csv",
+      "bytes": 12196573,
+      "sha256": "fbcb83dd33439ddb056f6ad96901132e4649e5fcd53b89533b989b0416fcb87d"
+    },
+    {
+      "file": "provenance/manifests/source_test.csv",
+      "bytes": 5831600,
+      "sha256": "cebdbb2848eedf9cc166f06063b698ea7e860c6f68e932aafb69edfdc88d32ac"
+    },
+    {
+      "file": "provenance/manifests/source_validation.csv",
+      "bytes": 3764879,
+      "sha256": "6aec5c0c5c6b4b7b3df4d741a9ccf02ead97a3cba1b2247af1620a55124362a0"
+    },
+    {
+      "file": "provenance/manifests/train.csv",
+      "bytes": 37970415,
+      "sha256": "1656cea229d3a2af37d2f26300a4208611e3efb82835b37b97f2e84e87b15942"
+    }
+  ]
+}

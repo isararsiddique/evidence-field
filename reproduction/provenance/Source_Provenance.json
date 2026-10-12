@@ -1,0 +1,115 @@
+{
+  "mirror_url": "https://huggingface.co/datasets/wltjr1007/Camelyon17-WILDS",
+  "official_patch_code": "https://github.com/p-lambda/wilds/blob/main/wilds/datasets/camelyon17_dataset.py",
+  "mirror_rows": 455954,
+  "decoded_byte_and_mirror_LFS_checks": true,
+  "original_publisher_byte_identity_asserted": false,
+  "retained_images": 455954,
+  "source_centres": [
+    0,
+    3,
+    4
+  ],
+  "held_out_centres": [
+    1,
+    2
+  ],
+  "source_patient_partition": "Reuse recorded source training patients; sort six source-validation IDs and assign alternating IDs to validation/test, labels unused.",
+  "counts": {
+    "train": {
+      "images": 271010,
+      "patients": [
+        4,
+        9,
+        10,
+        15,
+        16,
+        60,
+        61,
+        62,
+        64,
+        67,
+        68,
+        73,
+        75,
+        81,
+        87,
+        88,
+        89,
+        92,
+        96,
+        99
+      ],
+      "labels": {
+        "1": 145509,
+        "0": 125501
+      },
+      "manifest_sha256": "1656cea229d3a2af37d2f26300a4208611e3efb82835b37b97f2e84e87b15942"
+    },
+    "source_validation": {
+      "images": 24982,
+      "patients": [
+        12,
+        66,
+        80
+      ],
+      "labels": {
+        "1": 12944,
+        "0": 12038
+      },
+      "manifest_sha256": "6aec5c0c5c6b4b7b3df4d741a9ccf02ead97a3cba1b2247af1620a55124362a0"
+    },
+    "source_test": {
+      "images": 40004,
+      "patients": [
+        17,
+        72,
+        86
+      ],
+      "labels": {
+        "1": 9545,
+        "0": 30459
+      },
+      "manifest_sha256": "cebdbb2848eedf9cc166f06063b698ea7e860c6f68e932aafb69edfdc88d32ac"
+    },
+    "hospital_1": {
+      "images": 34904,
+      "patients": [
+        20,
+        21,
+        22,
+        24,
+        34,
+        36,
+        38,
+        39
+      ],
+      "labels": {
+        "0": 17452,
+        "1": 17452
+      },
+      "manifest_sha256": "3e1ba5cbbbad9b0a8e588f2ebee0755b8be3173e43ddaa9e77fd230c333f97f4"
+    },
+    "hospital_2": {
+      "images": 85054,
+      "patients": [
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        48,
+        51,
+        52
+      ],
+      "labels": {
+        "0": 42527,
+        "1": 42527
+      },
+      "manifest_sha256": "fbcb83dd33439ddb056f6ad96901132e4649e5fcd53b89533b989b0416fcb87d"
+    }
+  },
+  "target_history": "Both external centres previously used; full-data expansion remains exploratory source-locked evaluation",
+  "task": "Tumour present in central 32x32 window of the 96x96 RGB patch; no whole-slide/patient diagnosis claim"
+}

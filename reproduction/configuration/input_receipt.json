@@ -1,0 +1,57 @@
+{
+  "classes": 2,
+  "dataset": "camelyon",
+  "expected_target_file_sha256_from_audit": {
+    "hospital_1.csv": "3e1ba5cbbbad9b0a8e588f2ebee0755b8be3173e43ddaa9e77fd230c333f97f4",
+    "hospital_2.csv": "fbcb83dd33439ddb056f6ad96901132e4649e5fcd53b89533b989b0416fcb87d",
+    "shards/test-00000-of-00004.parquet.npy": "a00281c5ac995f8cf045ed830673980977ac097abd134d65a354813cb5143bfa",
+    "shards/test-00001-of-00004.parquet.npy": "fb7724c0012fb2cb38741a55aefb4281fd7c5b7119bc3fa3fe40fab97b776d49",
+    "shards/test-00002-of-00004.parquet.npy": "5e1b1a705be79d5e8ec5218e034f869a1959952f3f73a75c3ae194ace5e67319",
+    "shards/test-00003-of-00004.parquet.npy": "a25b2e2ed081c8041cbe78a3b388a55e2ccdfefe0f1a483335c8dd06ca95bf81",
+    "shards/validation-00002-of-00003.parquet.npy": "a4e8acc297e361468d1e1177272fe289f8cb8ab0ed98fafbe39ece9b812b07ec",
+    "source_test.csv": "cebdbb2848eedf9cc166f06063b698ea7e860c6f68e932aafb69edfdc88d32ac"
+  },
+  "files_sha256": {
+    "preparation_audit.json": "eed2a4781f5efcd98b156f88212668ccd7dcbf3d70806055ae64a7f8128ae4b2",
+    "shards/train-00000-of-00014.parquet.npy": "a3c2bd8ee332379e45a9715b53c449686bed8ba6b4b585d0d9d12965d62253f9",
+    "shards/train-00001-of-00014.parquet.npy": "d044129eba06d3f9db177f008ece7d2a0081d776246b973aaddae996b76652a0",
+    "shards/train-00002-of-00014.parquet.npy": "1f5914c17939cb82fdea3176ded5eaaed426571f1c4f5f11ac2a35e61154184a",
+    "shards/train-00003-of-00014.parquet.npy": "ea2693067a0fba949a2be76cb8ee5ad9d8e0cc4471a6e898a05a68c3dc37885f",
+    "shards/train-00004-of-00014.parquet.npy": "018b8505ad127a64771d286e377d4d2cdeac33060bff83c6e9395f52d713d039",
+    "shards/train-00005-of-00014.parquet.npy": "e962dc8904e2c5aebf0d27755339561f83592b353657f0c372dfc4ca1780ba03",
+    "shards/train-00006-of-00014.parquet.npy": "1df84278f7ce1645bf5a73735dc503214d75bcf1a9a590c13193d2c00ea572fd",
+    "shards/train-00007-of-00014.parquet.npy": "0df64a94b8f429421d3b7bb96ba971b7307be961aaf7b11c62b0a08921c5f63a",
+    "shards/train-00008-of-00014.parquet.npy": "346ecacb620589eaf27b15910b9de3844dade0e022673ebadbd426220db37ebf",
+    "shards/train-00009-of-00014.parquet.npy": "6640046f4e444598595aadf11aef33b25b505972ad53f0d58d57b8aee7a7cf15",
+    "shards/train-00010-of-00014.parquet.npy": "7a12620c6c39251607336809817f3723190167d70a14b04617c61111e20720e4",
+    "shards/train-00011-of-00014.parquet.npy": "31b51f4bfbe8dd3a86e05297d310bcb9204cdab29314a8845f94c9be69cc5e46",
+    "shards/train-00012-of-00014.parquet.npy": "4846518b9628dd0b061462e527c97e77e6f6ea978909efe6f64d532527f8f119",
+    "shards/train-00013-of-00014.parquet.npy": "3bcf719d9f10e4ac12d01218e3f79640d4b0a50da8c9c2f2228e311aaf065e29",
+    "shards/validation-00000-of-00003.parquet.npy": "e5a4d7adfc3b82131063a11fc41c709117456a4b1f4a33ea8100ad25c4e3eabf",
+    "shards/validation-00001-of-00003.parquet.npy": "ebe243bef8b48da5666c41d0e181a5ff4800d27f1b69df70532aba87074ee133",
+    "source_validation.csv": "6aec5c0c5c6b4b7b3df4d741a9ccf02ead97a3cba1b2247af1620a55124362a0",
+    "train.csv": "1656cea229d3a2af37d2f26300a4208611e3efb82835b37b97f2e84e87b15942"
+  },
+  "native_size": 96,
+  "prepared_audit_sha256": "eed2a4781f5efcd98b156f88212668ccd7dcbf3d70806055ae64a7f8128ae4b2",
+  "prepared_path": "/home/ubuntu/evidence_field_next_20261011_multi_gpu/data/histology_transfer_20261011/histopathology/full_camelyon_prepared",
+  "schema": "full-native-histology-input-binding/1",
+  "source_counts": {
+    "source_validation": {
+      "count": 24982,
+      "labels": {
+        "0": 12038,
+        "1": 12944
+      }
+    },
+    "train": {
+      "count": 271010,
+      "labels": {
+        "0": 125501,
+        "1": 145509
+      }
+    }
+  },
+  "target_files_opened_as_arrays_or_csv": false,
+  "target_files_opened_or_required": false
+}

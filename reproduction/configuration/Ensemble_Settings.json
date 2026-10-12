@@ -1,0 +1,138 @@
+{
+  "source_selected_method": "ef_two_ce",
+  "members": [
+    {
+      "seed": 11,
+      "file": "ef_two_ce__11.pt",
+      "sha256": "1a2235a6ac38a63ce68653ac37baa90a15d4978704c21b457f8f3e5d53c9715e",
+      "temperature": 0.8705505632961241,
+      "weight": 0.3333333333333333,
+      "selected_epoch": 13,
+      "epoch_indexing": "zero-based",
+      "source_validation": {
+        "accuracy": 0.9700184132575455,
+        "auroc": 0.995296228968793,
+        "ce": 0.0852278915835018
+      },
+      "parameters": 10550
+    },
+    {
+      "seed": 29,
+      "file": "ef_two_ce__29.pt",
+      "sha256": "a5ba12a7fc89ba1b1fe5121f7dbdc3eedae9ce7d25f69d17e841b9c8c384a8c2",
+      "temperature": 1.0,
+      "weight": 0.3333333333333333,
+      "selected_epoch": 6,
+      "epoch_indexing": "zero-based",
+      "source_validation": {
+        "accuracy": 0.9524457609478825,
+        "auroc": 0.9888023653363033,
+        "ce": 0.13244387177915976
+      },
+      "parameters": 10550
+    },
+    {
+      "seed": 47,
+      "file": "ef_two_ce__47.pt",
+      "sha256": "fb5293d2819092d62f8c5ce39869a67a4fba58fbd4fd36718f1a2675705eabb8",
+      "temperature": 0.8705505632961241,
+      "weight": 0.3333333333333333,
+      "selected_epoch": 6,
+      "epoch_indexing": "zero-based",
+      "source_validation": {
+        "accuracy": 0.9489632535425506,
+        "auroc": 0.9873425386975031,
+        "ce": 0.14080991564849485
+      },
+      "parameters": 10550
+    }
+  ],
+  "model_config_by_seed": {
+    "11": {
+      "classes": 2,
+      "responses": 8,
+      "node_types": 2,
+      "pair_types": 2,
+      "depth": 2,
+      "seed": 11,
+      "learned_encoder": true,
+      "readout": "cover",
+      "bilinear": true,
+      "calibration": "spectral_optical_density/1.0",
+      "unit_penalty": 0.0,
+      "reference_conditioning": true,
+      "frequencies": 4,
+      "learned_frequencies": true,
+      "frequency_limit": 25.132741228718345,
+      "signature_normalization": "response_mass",
+      "core_version": "ef-adaptive-program/0.4",
+      "alternatives": 2,
+      "max_order": 2,
+      "cross_scale": true
+    },
+    "29": {
+      "classes": 2,
+      "responses": 8,
+      "node_types": 2,
+      "pair_types": 2,
+      "depth": 2,
+      "seed": 29,
+      "learned_encoder": true,
+      "readout": "cover",
+      "bilinear": true,
+      "calibration": "spectral_optical_density/1.0",
+      "unit_penalty": 0.0,
+      "reference_conditioning": true,
+      "frequencies": 4,
+      "learned_frequencies": true,
+      "frequency_limit": 25.132741228718345,
+      "signature_normalization": "response_mass",
+      "core_version": "ef-adaptive-program/0.4",
+      "alternatives": 2,
+      "max_order": 2,
+      "cross_scale": true
+    },
+    "47": {
+      "classes": 2,
+      "responses": 8,
+      "node_types": 2,
+      "pair_types": 2,
+      "depth": 2,
+      "seed": 47,
+      "learned_encoder": true,
+      "readout": "cover",
+      "bilinear": true,
+      "calibration": "spectral_optical_density/1.0",
+      "unit_penalty": 0.0,
+      "reference_conditioning": true,
+      "frequencies": 4,
+      "learned_frequencies": true,
+      "frequency_limit": 25.132741228718345,
+      "signature_normalization": "response_mass",
+      "core_version": "ef-adaptive-program/0.4",
+      "alternatives": 2,
+      "max_order": 2,
+      "cross_scale": true
+    }
+  },
+  "ensemble_rule": "p(x)=sum_j w_j softmax(z_j(x)/T_j); equal nonnegative weights summing to one; T_j>0",
+  "best_single_member_by_source_validation": {
+    "seed": 11,
+    "file": "ef_two_ce__11.pt",
+    "criterion": "Maximum source-validation AUROC, lower source CE tie-break"
+  },
+  "class_labels": [
+    "no_tumour",
+    "tumour"
+  ],
+  "input_shape": [
+    "N",
+    3,
+    96,
+    96
+  ],
+  "input_contract": "Native 96x96 RGB uint8 patch converted to float32 CHW /255; authenticated model applies its optical adapter internally.",
+  "selection": "Original registered primary-study source-validation selection; no external outcomes used",
+  "strict_remote_state_load_verified": true,
+  "clinically_validated": false
+}

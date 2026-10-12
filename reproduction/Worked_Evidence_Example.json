@@ -1,0 +1,1158 @@
+{
+  "created_utc": "2026-10-12T18:20:06.598037+00:00",
+  "passed": true,
+  "display_selection": "First raw-ensemble incorrect prediction in released panel order; seed 11 fixed for the cover and decomposition. Display selection only, no training/model selection.",
+  "panel_binding": {
+    "pool": "hospital_1",
+    "index": 1,
+    "patient": "22",
+    "label": 0,
+    "input_sha256": "77afb56744db3383baf655c6fb8306d68763c9515d9894acd88ed8d1dd2d3d2b",
+    "panel_position": 1,
+    "raw_probability": [
+      0.11243661226340834,
+      0.8875633877365916
+    ],
+    "source_calibrated_probability": [
+      0.09413238430802703,
+      0.9058676156919729
+    ],
+    "ensemble_probability_error": 1.2895601836371284e-07
+  },
+  "reference_definition": "Tumour in central 32x32 patch window; y=0 does not exclude tumour outside that window.",
+  "raw_probability": [
+    0.11243661226340829,
+    0.8875633877365916
+  ],
+  "calibrated_probability": [
+    0.09413238430802698,
+    0.905867615691973
+  ],
+  "predicted_label": 1,
+  "released_label": 0,
+  "members": [
+    {
+      "seed": 11,
+      "temperature": 0.8705505632961241,
+      "weight": 0.3333333333333333,
+      "checkpoint_sha256": "1a2235a6ac38a63ce68653ac37baa90a15d4978704c21b457f8f3e5d53c9715e",
+      "audit": {
+        "passed": true,
+        "native_reader": {
+          "passed": true,
+          "descriptor_error": 1.0969129404792e-07,
+          "score_error": 3.3485543049494026e-07,
+          "optimum_error": 3.3485543049494026e-07,
+          "cover_voxels": [
+            9216,
+            9216
+          ],
+          "admissible_bound_candidates": 252,
+          "dominated_expansions": 0,
+          "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+        },
+        "classes": [
+          {
+            "class_index": 0,
+            "signed_totals": {
+              "anchors": 2.8956728198557586,
+              "local_affine": 3.5502043407019874,
+              "parent_affine": 3.045539486726818,
+              "member_product": -0.6602525556180115,
+              "parent_modulation": -0.47187244173238846,
+              "bias": 0.004745966289192438
+            },
+            "reconstructed_logit": 8.364037616223357,
+            "recorded_logit": 8.364037281367928,
+            "units": [
+              {
+                "kind": "group",
+                "nodes": [
+                  13,
+                  14
+                ],
+                "parent": 1,
+                "production": 3,
+                "group": 0,
+                "type": 0,
+                "anchors": 0.33788596821791095,
+                "local_affine": 0.4230298012682986,
+                "parent_affine": 0.4363936903772321,
+                "member_product": -0.15475732353481403,
+                "parent_modulation": -0.15149007976829837
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  15,
+                  16
+                ],
+                "parent": 1,
+                "production": 3,
+                "group": 3,
+                "type": 0,
+                "anchors": 0.6656277821813922,
+                "local_affine": 0.9490429590640533,
+                "parent_affine": 0.6660745800494595,
+                "member_product": -0.11486094672597343,
+                "parent_modulation": -0.1124359971104413
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  17,
+                  19
+                ],
+                "parent": 2,
+                "production": 4,
+                "group": 1,
+                "type": 0,
+                "anchors": 0.29208956130576114,
+                "local_affine": 0.5300868111021553,
+                "parent_affine": 0.45944135928969015,
+                "member_product": 0.02290271220551107,
+                "parent_modulation": 0.02275819338245281
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  18,
+                  20
+                ],
+                "parent": 2,
+                "production": 4,
+                "group": 2,
+                "type": 0,
+                "anchors": 0.3406456496057807,
+                "local_affine": 0.5508101004598591,
+                "parent_affine": 0.45944135928969015,
+                "member_product": 0.07085227088920498,
+                "parent_modulation": 0.07040518467915126
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  25,
+                  27
+                ],
+                "parent": 3,
+                "production": 6,
+                "group": 1,
+                "type": 0,
+                "anchors": 0.3058402830805956,
+                "local_affine": 0.5524965750069255,
+                "parent_affine": 0.3240185632908738,
+                "member_product": -0.19837697051711764,
+                "parent_modulation": -0.1982201971065609
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  26,
+                  28
+                ],
+                "parent": 3,
+                "production": 6,
+                "group": 2,
+                "type": 0,
+                "anchors": 0.35362251890666585,
+                "local_affine": 0.2535372258194909,
+                "parent_affine": 0.3240185632908738,
+                "member_product": -0.19452264761466523,
+                "parent_modulation": -0.19436892019954452
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  33,
+                  35
+                ],
+                "parent": 4,
+                "production": 8,
+                "group": 1,
+                "type": 1,
+                "anchors": 0.3324559613708324,
+                "local_affine": 0.09175771086983021,
+                "parent_affine": 0.18807568556949958,
+                "member_product": -0.04592753701159288,
+                "parent_modulation": 0.04592237852512126
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  34,
+                  36
+                ],
+                "parent": 4,
+                "production": 8,
+                "group": 2,
+                "type": 1,
+                "anchors": 0.26750509518682,
+                "local_affine": 0.19944315711137472,
+                "parent_affine": 0.18807568556949958,
+                "member_product": -0.04556211330856439,
+                "parent_modulation": 0.045556995865731316
+              }
+            ]
+          },
+          {
+            "class_index": 1,
+            "signed_totals": {
+              "anchors": 1.1168983385354965,
+              "local_affine": 5.645189439784826,
+              "parent_affine": 3.121757682828601,
+              "member_product": 0.14372694069097958,
+              "parent_modulation": 0.12443595281960068,
+              "bias": -0.004745966289192438
+            },
+            "reconstructed_logit": 10.147262388370311,
+            "recorded_logit": 10.147262388374656,
+            "units": [
+              {
+                "kind": "group",
+                "nodes": [
+                  41,
+                  43
+                ],
+                "parent": 5,
+                "production": 10,
+                "group": 1,
+                "type": 0,
+                "anchors": 0.1469081629033667,
+                "local_affine": 0.28681323146541016,
+                "parent_affine": 0.15303759188395627,
+                "member_product": 0.368380180712479,
+                "parent_modulation": 0.35964650377289564
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  42,
+                  44
+                ],
+                "parent": 5,
+                "production": 10,
+                "group": 2,
+                "type": 0,
+                "anchors": 0.16240192651227942,
+                "local_affine": 0.8515532087798208,
+                "parent_affine": 0.15850322016552612,
+                "member_product": 0.4454372309769458,
+                "parent_modulation": 0.43487666046880663
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  49,
+                  50
+                ],
+                "parent": 6,
+                "production": 12,
+                "group": 0,
+                "type": 0,
+                "anchors": 0.009516781183875,
+                "local_affine": 0.5806144286310351,
+                "parent_affine": 0.2886711552539757,
+                "member_product": -0.06147279510255171,
+                "parent_modulation": -0.06147278095533849
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  51,
+                  52
+                ],
+                "parent": 6,
+                "production": 12,
+                "group": 3,
+                "type": 0,
+                "anchors": -0.033010923186011135,
+                "local_affine": 0.2715141170466041,
+                "parent_affine": 0.2886711552539757,
+                "member_product": -0.01906742987353794,
+                "parent_modulation": -0.019067425485401763
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  57,
+                  59
+                ],
+                "parent": 7,
+                "production": 14,
+                "group": 1,
+                "type": 0,
+                "anchors": 0.036649166262464956,
+                "local_affine": 0.8790771453921126,
+                "parent_affine": 0.6600258524776985,
+                "member_product": -0.04022945500911421,
+                "parent_modulation": -0.040227369689929036
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  58,
+                  60
+                ],
+                "parent": 7,
+                "production": 14,
+                "group": 2,
+                "type": 0,
+                "anchors": 0.591662848732877,
+                "local_affine": 1.2381454702536945,
+                "parent_affine": 0.683598204351902,
+                "member_product": -0.0069635495532925085,
+                "parent_modulation": -0.006963188593307417
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  65,
+                  67
+                ],
+                "parent": 8,
+                "production": 16,
+                "group": 1,
+                "type": 0,
+                "anchors": 0.29232389835439815,
+                "local_affine": 0.8819631360841667,
+                "parent_affine": 0.4332246042407635,
+                "member_product": -0.2949450848827891,
+                "parent_modulation": -0.294944652674872
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  66,
+                  68
+                ],
+                "parent": 8,
+                "production": 16,
+                "group": 2,
+                "type": 0,
+                "anchors": -0.08955352222775342,
+                "local_affine": 0.6555087021319819,
+                "parent_affine": 0.45602589920080366,
+                "member_product": -0.24741215657715981,
+                "parent_modulation": -0.24741179402325292
+              }
+            ]
+          }
+        ],
+        "routes": [
+          {
+            "class_index": 0,
+            "reachable_routes": [
+              {
+                "node": 1,
+                "recorded_route": 12,
+                "independently_selected_route": 12,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 2,
+                "recorded_route": 7,
+                "independently_selected_route": 7,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 3,
+                "recorded_route": 7,
+                "independently_selected_route": 7,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 4,
+                "recorded_route": 7,
+                "independently_selected_route": 7,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 0,
+                "recorded_route": 1,
+                "independently_selected_route": 1,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              }
+            ],
+            "exact_route_matches": 5,
+            "near_tied_alternatives": 0
+          },
+          {
+            "class_index": 1,
+            "reachable_routes": [
+              {
+                "node": 5,
+                "recorded_route": 7,
+                "independently_selected_route": 7,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 6,
+                "recorded_route": 5,
+                "independently_selected_route": 5,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 7,
+                "recorded_route": 7,
+                "independently_selected_route": 7,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 8,
+                "recorded_route": 7,
+                "independently_selected_route": 7,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 0,
+                "recorded_route": 8,
+                "independently_selected_route": 8,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              }
+            ],
+            "exact_route_matches": 5,
+            "near_tied_alternatives": 0
+          }
+        ],
+        "maximum_decomposition_error": 5.228901280851517e-07,
+        "maximum_root_optimum_error": 3.348554287185834e-07,
+        "structural_signature": {
+          "frequencies": 4,
+          "learned_frequencies": true,
+          "independent_signature_count": 4672,
+          "maximum_absolute_signature": 0.9999966881287065
+        },
+        "training_framework_imported": false,
+        "scope": "Unchanged original-program accounting and independent reachable-route audit; not clinical validation",
+        "context_note": "Region descriptors contain parent/root contrasts. Explicit context terms are additional computational contributions, not causal biological effects."
+      }
+    },
+    {
+      "seed": 29,
+      "temperature": 1.0,
+      "weight": 0.3333333333333333,
+      "checkpoint_sha256": "a5ba12a7fc89ba1b1fe5121f7dbdc3eedae9ce7d25f69d17e841b9c8c384a8c2",
+      "audit": {
+        "passed": true,
+        "native_reader": {
+          "passed": true,
+          "descriptor_error": 1.1415634237899042e-07,
+          "score_error": 2.2816488698396142e-07,
+          "optimum_error": 2.28164886095783e-07,
+          "cover_voxels": [
+            9216,
+            9216
+          ],
+          "admissible_bound_candidates": 252,
+          "dominated_expansions": 0,
+          "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+        },
+        "classes": [
+          {
+            "class_index": 0,
+            "signed_totals": {
+              "anchors": 1.9902330032901379,
+              "local_affine": -0.6148152025012543,
+              "parent_affine": 2.746295414111202,
+              "member_product": 0.7919814940204011,
+              "parent_modulation": 0.7885572515937966,
+              "bias": -0.04178046062588692
+            },
+            "reconstructed_logit": 5.660471499888397,
+            "recorded_logit": 5.660471271723509,
+            "units": [
+              {
+                "kind": "group",
+                "nodes": [
+                  45,
+                  47
+                ],
+                "parent": 5,
+                "production": 11,
+                "group": 1,
+                "type": 1,
+                "anchors": 0.3263895250735396,
+                "local_affine": 0.05467332254146604,
+                "parent_affine": 0.46464144029835375,
+                "member_product": 0.11028866491906061,
+                "parent_modulation": 0.10846920758452924
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  46,
+                  48
+                ],
+                "parent": 5,
+                "production": 11,
+                "group": 2,
+                "type": 1,
+                "anchors": 0.39366362153442014,
+                "local_affine": -0.0014541449356922356,
+                "parent_affine": 0.3143162684371217,
+                "member_product": 0.07437436466077768,
+                "parent_modulation": 0.07314739375327353
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  53,
+                  55
+                ],
+                "parent": 6,
+                "production": 13,
+                "group": 1,
+                "type": 1,
+                "anchors": 0.3922850673659162,
+                "local_affine": 0.03908568690093654,
+                "parent_affine": 0.2763705584109145,
+                "member_product": 0.07532387564328033,
+                "parent_modulation": 0.07514134922885393
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  54,
+                  56
+                ],
+                "parent": 6,
+                "production": 13,
+                "group": 2,
+                "type": 1,
+                "anchors": 0.11476291729606272,
+                "local_affine": 0.06646481762734817,
+                "parent_affine": 0.19225777976411443,
+                "member_product": 0.05218539027673335,
+                "parent_modulation": 0.05205893353122859
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  61,
+                  63
+                ],
+                "parent": 7,
+                "production": 15,
+                "group": 1,
+                "type": 1,
+                "anchors": 0.15676874566260493,
+                "local_affine": -0.2338433949408126,
+                "parent_affine": 0.4999777202485406,
+                "member_product": 0.16992774284367337,
+                "parent_modulation": 0.16990034559424091
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  62,
+                  64
+                ],
+                "parent": 7,
+                "production": 15,
+                "group": 2,
+                "type": 1,
+                "anchors": 0.2544497394551511,
+                "local_affine": 0.05520833405791685,
+                "parent_affine": 0.3382202225210716,
+                "member_product": 0.11496801652261346,
+                "parent_modulation": 0.11494948036499307
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  69,
+                  71
+                ],
+                "parent": 8,
+                "production": 17,
+                "group": 1,
+                "type": 1,
+                "anchors": 0.06563993189422535,
+                "local_affine": -0.4487655692870576,
+                "parent_affine": 0.38953237851064004,
+                "member_product": 0.11496811524800524,
+                "parent_modulation": 0.11495460927351293
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  70,
+                  72
+                ],
+                "parent": 8,
+                "production": 17,
+                "group": 2,
+                "type": 1,
+                "anchors": 0.2862734550082179,
+                "local_affine": -0.14618425446535943,
+                "parent_affine": 0.27097904592044525,
+                "member_product": 0.07994532390625708,
+                "parent_modulation": 0.07993593226316431
+              }
+            ]
+          },
+          {
+            "class_index": 1,
+            "signed_totals": {
+              "anchors": 3.532038688645848,
+              "local_affine": 3.1085171188036416,
+              "parent_affine": -1.3656521920271403,
+              "member_product": 1.2818978374184138,
+              "parent_modulation": 1.2818844380674383,
+              "bias": 0.04178046062588692
+            },
+            "reconstructed_logit": 7.880466351534088,
+            "recorded_logit": 7.88046645000577,
+            "units": [
+              {
+                "kind": "node",
+                "nodes": [
+                  9
+                ],
+                "anchor": 0.19720674470782384
+              },
+              {
+                "kind": "node",
+                "nodes": [
+                  10
+                ],
+                "anchor": 0.30303366557142747
+              },
+              {
+                "kind": "node",
+                "nodes": [
+                  11
+                ],
+                "anchor": 0.17630655974424403
+              },
+              {
+                "kind": "node",
+                "nodes": [
+                  12
+                ],
+                "anchor": 0.37118405690940215
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  21,
+                  22
+                ],
+                "parent": 2,
+                "production": 5,
+                "group": 0,
+                "type": 0,
+                "anchors": 0.6499137798679213,
+                "local_affine": 0.05694173286572826,
+                "parent_affine": -0.11444985428955623,
+                "member_product": 0.1759693600773578,
+                "parent_modulation": 0.1759646933254403
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  23,
+                  24
+                ],
+                "parent": 2,
+                "production": 5,
+                "group": 3,
+                "type": 0,
+                "anchors": 0.5961956979375826,
+                "local_affine": 0.6280397859336565,
+                "parent_affine": -0.17468661970511215,
+                "member_product": 0.287992667831155,
+                "parent_modulation": 0.28798503019279437
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  25,
+                  26
+                ],
+                "parent": 3,
+                "production": 6,
+                "group": 0,
+                "type": 0,
+                "anchors": 0.193683365696937,
+                "local_affine": 0.8711158331140836,
+                "parent_affine": -0.19516797157641283,
+                "member_product": 0.18509357991960743,
+                "parent_modulation": 0.1850935583769903
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  27,
+                  28
+                ],
+                "parent": 3,
+                "production": 6,
+                "group": 3,
+                "type": 0,
+                "anchors": 0.07411894421283227,
+                "local_affine": 0.17128487405236603,
+                "parent_affine": -0.19516797157641283,
+                "member_product": 0.22625293747281874,
+                "parent_modulation": 0.2262529111397584
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  33,
+                  34
+                ],
+                "parent": 4,
+                "production": 8,
+                "group": 0,
+                "type": 0,
+                "anchors": 0.6598328397364519,
+                "local_affine": 0.7182536808525355,
+                "parent_affine": -0.34308988743982305,
+                "member_product": 0.24207321098664472,
+                "parent_modulation": 0.24207258757811465
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  35,
+                  36
+                ],
+                "parent": 4,
+                "production": 8,
+                "group": 3,
+                "type": 0,
+                "anchors": 0.31056303426122495,
+                "local_affine": 0.6628812119852714,
+                "parent_affine": -0.34308988743982305,
+                "member_product": 0.1645160811308301,
+                "parent_modulation": 0.16451565745434027
+              }
+            ]
+          }
+        ],
+        "routes": [
+          {
+            "class_index": 0,
+            "reachable_routes": [
+              {
+                "node": 5,
+                "recorded_route": 14,
+                "independently_selected_route": 14,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 6,
+                "recorded_route": 14,
+                "independently_selected_route": 14,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 7,
+                "recorded_route": 14,
+                "independently_selected_route": 14,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 8,
+                "recorded_route": 14,
+                "independently_selected_route": 14,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 0,
+                "recorded_route": 8,
+                "independently_selected_route": 8,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              }
+            ],
+            "exact_route_matches": 5,
+            "near_tied_alternatives": 0
+          },
+          {
+            "class_index": 1,
+            "reachable_routes": [
+              {
+                "node": 1,
+                "recorded_route": 1,
+                "independently_selected_route": 1,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 2,
+                "recorded_route": 12,
+                "independently_selected_route": 12,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 3,
+                "recorded_route": 5,
+                "independently_selected_route": 5,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 4,
+                "recorded_route": 5,
+                "independently_selected_route": 5,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 0,
+                "recorded_route": 1,
+                "independently_selected_route": 1,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              }
+            ],
+            "exact_route_matches": 5,
+            "near_tied_alternatives": 0
+          }
+        ],
+        "maximum_decomposition_error": 4.427607065426997e-07,
+        "maximum_root_optimum_error": 2.2816488787213984e-07,
+        "structural_signature": {
+          "frequencies": 4,
+          "learned_frequencies": true,
+          "independent_signature_count": 4672,
+          "maximum_absolute_signature": 0.9999778523962188
+        },
+        "training_framework_imported": false,
+        "scope": "Unchanged original-program accounting and independent reachable-route audit; not clinical validation",
+        "context_note": "Region descriptors contain parent/root contrasts. Explicit context terms are additional computational contributions, not causal biological effects."
+      }
+    },
+    {
+      "seed": 47,
+      "temperature": 0.8705505632961241,
+      "weight": 0.3333333333333333,
+      "checkpoint_sha256": "fb5293d2819092d62f8c5ce39869a67a4fba58fbd4fd36718f1a2675705eabb8",
+      "audit": {
+        "passed": true,
+        "native_reader": {
+          "passed": true,
+          "descriptor_error": 1.0540993944374577e-07,
+          "score_error": 2.0129352531483846e-06,
+          "optimum_error": 2.0129352531483846e-06,
+          "cover_voxels": [
+            9216,
+            9216
+          ],
+          "admissible_bound_candidates": 252,
+          "dominated_expansions": 0,
+          "scope": "Real prepared-image numeric provenance, exact cover and registered optimum"
+        },
+        "classes": [
+          {
+            "class_index": 0,
+            "signed_totals": {
+              "anchors": 0.9717010489426572,
+              "local_affine": 0.18976215499903698,
+              "parent_affine": 2.669162284113643,
+              "member_product": 0.9357072189793039,
+              "parent_modulation": 0.935353516444377,
+              "bias": -0.04405723884701729
+            },
+            "reconstructed_logit": 5.657628984632001,
+            "recorded_logit": 5.65762747451663,
+            "units": [
+              {
+                "kind": "group",
+                "nodes": [
+                  1,
+                  3
+                ],
+                "parent": 0,
+                "production": 0,
+                "group": 1,
+                "type": 1,
+                "anchors": 0.25788416620640026,
+                "local_affine": 0.39114026086050147,
+                "parent_affine": 1.3345811420568214,
+                "member_product": 0.4685746733888183,
+                "parent_modulation": 0.46839754955518914
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  2,
+                  4
+                ],
+                "parent": 0,
+                "production": 0,
+                "group": 2,
+                "type": 1,
+                "anchors": 0.713816882736257,
+                "local_affine": -0.20137810586146448,
+                "parent_affine": 1.3345811420568214,
+                "member_product": 0.4671325455904855,
+                "parent_modulation": 0.4669559668891879
+              }
+            ]
+          },
+          {
+            "class_index": 1,
+            "signed_totals": {
+              "anchors": 2.0398087635249516,
+              "local_affine": 7.079099351464096,
+              "parent_affine": -2.1945909261787064,
+              "member_product": 0.5081486667108008,
+              "parent_modulation": 0.4301125724820782,
+              "bias": 0.04405723884701729
+            },
+            "reconstructed_logit": 7.906635666850238,
+            "recorded_logit": 7.90663767978549,
+            "units": [
+              {
+                "kind": "group",
+                "nodes": [
+                  13,
+                  15
+                ],
+                "parent": 1,
+                "production": 3,
+                "group": 1,
+                "type": 0,
+                "anchors": 0.5597284388155943,
+                "local_affine": 0.5826416001941381,
+                "parent_affine": -0.42415929235249616,
+                "member_product": 0.06132584224861124,
+                "parent_modulation": -0.01662866083863603
+              },
+              {
+                "kind": "node",
+                "nodes": [
+                  14
+                ],
+                "anchor": 0.1127709106614137
+              },
+              {
+                "kind": "node",
+                "nodes": [
+                  16
+                ],
+                "anchor": 0.48817648793263885
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  17,
+                  19
+                ],
+                "parent": 2,
+                "production": 4,
+                "group": 1,
+                "type": 0,
+                "anchors": 0.13166453208240256,
+                "local_affine": 1.5658471710066775,
+                "parent_affine": -0.04584517494496366,
+                "member_product": 0.08608703657840897,
+                "parent_modulation": 0.08602898614664099
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  18,
+                  20
+                ],
+                "parent": 2,
+                "production": 4,
+                "group": 2,
+                "type": 0,
+                "anchors": 0.10974657756322805,
+                "local_affine": 0.6528879924824934,
+                "parent_affine": -0.04584517494496366,
+                "member_product": 0.034541539555199424,
+                "parent_modulation": 0.03451824741546729
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  29,
+                  30
+                ],
+                "parent": 3,
+                "production": 7,
+                "group": 0,
+                "type": 0,
+                "anchors": 0.012428288091474088,
+                "local_affine": 1.1463765929456484,
+                "parent_affine": -0.27630968440181664,
+                "member_product": 0.04675091047358205,
+                "parent_modulation": 0.04675091004173921
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  31,
+                  32
+                ],
+                "parent": 3,
+                "production": 7,
+                "group": 3,
+                "type": 0,
+                "anchors": -0.09228414500861853,
+                "local_affine": 0.9596495418615181,
+                "parent_affine": -0.42173583408698334,
+                "member_product": 0.10623653816135802,
+                "parent_modulation": 0.10623653718004049
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  33,
+                  34
+                ],
+                "parent": 4,
+                "production": 8,
+                "group": 0,
+                "type": 0,
+                "anchors": 0.49303477718238226,
+                "local_affine": 1.2400981326403073,
+                "parent_affine": -0.4903478827237415,
+                "member_product": 0.09003697525057322,
+                "parent_modulation": 0.09003684677263774
+              },
+              {
+                "kind": "group",
+                "nodes": [
+                  35,
+                  36
+                ],
+                "parent": 4,
+                "production": 8,
+                "group": 3,
+                "type": 0,
+                "anchors": 0.22454289620443618,
+                "local_affine": 0.9315983203333136,
+                "parent_affine": -0.4903478827237415,
+                "member_product": 0.083169824443068,
+                "parent_modulation": 0.08316970576418847
+              }
+            ]
+          }
+        ],
+        "routes": [
+          {
+            "class_index": 0,
+            "reachable_routes": [
+              {
+                "node": 0,
+                "recorded_route": 7,
+                "independently_selected_route": 7,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              }
+            ],
+            "exact_route_matches": 1,
+            "near_tied_alternatives": 0
+          },
+          {
+            "class_index": 1,
+            "reachable_routes": [
+              {
+                "node": 1,
+                "recorded_route": 13,
+                "independently_selected_route": 13,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 2,
+                "recorded_route": 7,
+                "independently_selected_route": 7,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 3,
+                "recorded_route": 12,
+                "independently_selected_route": 12,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 4,
+                "recorded_route": 5,
+                "independently_selected_route": 5,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              },
+              {
+                "node": 0,
+                "recorded_route": 1,
+                "independently_selected_route": 1,
+                "exact_route_match": true,
+                "score_gap": 0.0,
+                "near_tied_alternative": false
+              }
+            ],
+            "exact_route_matches": 5,
+            "near_tied_alternatives": 0
+          }
+        ],
+        "maximum_decomposition_error": 2.012935252260206e-06,
+        "maximum_root_optimum_error": 2.012935252260206e-06,
+        "structural_signature": {
+          "frequencies": 4,
+          "learned_frequencies": true,
+          "independent_signature_count": 4672,
+          "maximum_absolute_signature": 0.9999613888671044
+        },
+        "training_framework_imported": false,
+        "scope": "Unchanged original-program accounting and independent reachable-route audit; not clinical validation",
+        "context_note": "Region descriptors contain parent/root contrasts. Explicit context terms are additional computational contributions, not causal biological effects."
+      }
+    }
+  ],
+  "input_sha256": "77afb56744db3383baf655c6fb8306d68763c9515d9894acd88ed8d1dd2d3d2b",
+  "source_panel_sha256": "5fd223cc13ba6b2ef453441de2f071a7f014ad9584bea63703c49ac609cc4c02",
+  "sample_input_file_sha256": "cb31fe83d75e8902eecf2e2c5e292db1763ebe8e42be6fbdd476ef5a79722017",
+  "training_framework_imported": false,
+  "new_optimizer_steps": 0,
+  "clinical_localization_claim": false
+}
