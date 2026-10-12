@@ -1,0 +1,48 @@
+{
+  "schema": "EF-visible-application-transport/1",
+  "archive_bytes": 304386,
+  "archive_sha256": "c637b3cc6695140563f8639c5f26d367a96705e679c2eb7139e9dfddaa3887a5",
+  "payload_inventory_sha256": "50f6b6107eaefb942d5437d7455a33c30286a5044b07497d7ec8036cb66fb14e",
+  "parts": [
+    {
+      "file": "application_artifacts/Histopathology_Application.part00.b64",
+      "bytes": 56001,
+      "sha256": "95915a1219e74758c08cf6e937a0183afc4a56759cceec9015e87d9124b3aa6d"
+    },
+    {
+      "file": "application_artifacts/Histopathology_Application.part01.b64",
+      "bytes": 56001,
+      "sha256": "da44722ce10ad6a3dd37222dd11e8a94ab9cb10689e8c285f24f11b65d01640c"
+    },
+    {
+      "file": "application_artifacts/Histopathology_Application.part02.b64",
+      "bytes": 56001,
+      "sha256": "f67c94c35314320d3589f426ef8c30261a221b81a950708b7764e3ecd4a4b984"
+    },
+    {
+      "file": "application_artifacts/Histopathology_Application.part03.b64",
+      "bytes": 56001,
+      "sha256": "07de2ab037e6646f6712b485a663a8dc063d1c8bd631414d2e25940163ac375f"
+    },
+    {
+      "file": "application_artifacts/Histopathology_Application.part04.b64",
+      "bytes": 56001,
+      "sha256": "9e40c8688f63caca9e4c4ebed469e40a4af8c1a37a9cde051fdd86afe21e55de"
+    },
+    {
+      "file": "application_artifacts/Histopathology_Application.part05.b64",
+      "bytes": 56001,
+      "sha256": "60f06b7e66af05668424e8dd68a4197b49985ebd41e16d35ed604fa1653ed1a9"
+    },
+    {
+      "file": "application_artifacts/Histopathology_Application.part06.b64",
+      "bytes": 56001,
+      "sha256": "e622caeca5676f283960b4ba776d5fbb3669555086db968f15fee7454bcb5110"
+    },
+    {
+      "file": "application_artifacts/Histopathology_Application.part07.b64",
+      "bytes": 13849,
+      "sha256": "72b26ab9fd715dd6b5411de043d1acf8dfef8efec83ee46188e31cb19980a6fd"
+    }
+  ]
+}
